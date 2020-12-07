@@ -24,10 +24,10 @@ Please turn in your submission by the deadline on your cohort calendar.
 
 ## Requirements
 
-The starter code has been provided for you. `lib/index.html` and `lib/style.css`
+The starter code has been provided for you. `index.html` and `style.css`
 include the initial structure and styling.
 
-In `lib/script.js`, you will find an array of objects with each character's name
+In `script.js`, you will find an array of objects with each character's name
 and bio.
 
 You will need to modify the HTML, CSS, and JS to complete the requirements.
@@ -37,14 +37,9 @@ features of all three.
 1. Add a button to each character's `<div>` with the class `more-info`. When the
    user clicks the button, the name of the character prints to the console.
 2. Add more functionality to the button: when clicked, the bio of the character
-   appears beneath their image.
-3. Add an input field and submit button at the top of the page. When the user
-   types the name of a character and clicks submit, only that character remains
-   visible in the browser.
+   appears beneath their image. HINT: Use css `{display: hidden}`
 4. Add another button to each character's `<div>` with the class
-   `alive-or-dead`. When the user clicks the button, indicate the character is
-   still on the show with with a green `STILL ALIVE!` under their image or that
-   they have been killed off with a red `SORRY, YOU DEAD` under their image.
+   `alive-or-dead` by changing the CSS `{opacity: __ }` (or, if you are willing to experiment, the `{filter: blur(__px)}` property).
 
 ## Bonus
 
