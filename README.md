@@ -7,7 +7,7 @@ favorite characters and a short bio for each one. You can't truly honor the
 Queen of Dragons with a static HTML/CSS page. You need to add some
 interactivity!
 
-![Screenshot](lib/img/screensshot.png)
+![Screenshot](img/screensshot.png)
 
 ## Prerequisites
 
