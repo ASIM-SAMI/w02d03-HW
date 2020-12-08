@@ -37,7 +37,7 @@ features of all three.
 1. Add a button to each character's `<div>` with the class `more-info`. When the
    user clicks the button, the name of the character prints to the console.
 2. Add more functionality to the button: when clicked, the bio of the character
-   appears beneath their image. HINT: Use css `{display: hidden}`
+   appears beneath their image. HINT: Use css `{visibility: hidden}`
 4. Add another button to each character's `<div>` with the class
    `alive-or-dead` by changing the CSS `{opacity: __ }` (or, if you are willing to experiment, the `{filter: blur(__px)}` property).
 
