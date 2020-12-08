@@ -36,3 +36,61 @@ var characters = [
     status: "alive"
   }
 ];
+
+var names_of_char = [];
+var info_of_char = [];
+for(char in characters){
+  names_of_char.push(characters[char].name);
+  info_of_char.push(characters[char].bio);
+
+}
+
+
+
+let character = document.querySelectorAll(".character");
+let char_name = document.querySelectorAll(".more-info");
+let more_info = [];
+let char_info = document.querySelectorAll(".info");
+
+
+//this comment to try late (ignore it)>>>>>
+// let info_p = document.createElement("p");
+// info_p.innerText = info_of_char[i];
+// character[i].appendChild(info_p);
+// character[i].setAttribute("id", info_p);
+// console.log(info_p[i])
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+for(var i=0; i < char_name.length;i++){
+  char_name[i].setAttribute("id", names_of_char[i]);
+  char_info[i].innerText = info_of_char[i];
+
+
+
+
+  
+  
+}
+
+
+
+let div = document.querySelector(".got-characters");
+var c = 0;
+div.addEventListener("click", (item) => {
+     item.preventDefault();
+     
+
+     if(item.target.tagName === "BUTTON"){
+       
+          console.log("Name: "+ item.target.id);
+
+          while(c < char_info.length){
+            document.getElementsByClassName("info")[c].style.display = 'block';
+            c++;
+          }
+
+            
+          
+       
+     }
+});

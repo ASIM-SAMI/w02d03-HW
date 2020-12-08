@@ -16,13 +16,14 @@ h1 {
 }
 
 .character {
-  background-color: white;
+  background-color: #222831;
   border: solid black 3px;
   margin: 15px auto;
   width: 425px;
 }
 
 h3 {
+  color:white;
   text-align: center;
   font-size: 30px;
 }
@@ -32,11 +33,21 @@ img {
   width: auto;
   display: block;
   margin: 10px auto;
+  border: 2px solid white;
 }
 
 .more-info {
   display: block;
-  margin: 10px auto;
+  margin: 20px auto;
   font-family: "Ubuntu", sans-serif;
   font-size: 18px;
+  
+}
+
+.info{
+  color:white;
+  display: none;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 5% 2%;
 }
